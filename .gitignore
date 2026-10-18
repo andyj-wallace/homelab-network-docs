@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Real configs stay local; only sanitized examples are tracked
+configs/*
+!configs/examples/
+
+# Secrets and credentials
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.kdbx
+id_rsa*
+id_ed25519*
+secrets/
+
+# Editor and tooling
+.vscode/
+.idea/
+*.swp
